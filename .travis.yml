@@ -1,0 +1,20 @@
+arch: 
+  - arm64
+language: node_js
+node_js: 
+  - 14.16
+before_script: 
+  - "npm install"
+script: "true"
+after_script: []
+before_install: []
+install: []
+after_install: []
+build: 
+  - npm start
+after_script: 
+  - "echo done"
+after_success: []
+after_failure: []
+before_deploy: []
+deploy: []
